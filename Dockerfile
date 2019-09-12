@@ -1,3 +1,3 @@
 FROM alpine:3.10
 
-RUN echo foobara
+RUN echo foobaraas
