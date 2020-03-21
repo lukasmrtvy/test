@@ -5,9 +5,4 @@
   "kubernetes": {
     "fileMatch": ["(^|/)[^/]*\\.yaml$"]
   },
-  "docker-compose": {
-    "digest": {
-      "enabled": true
-    }
-  }
 }
