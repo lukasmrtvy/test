@@ -4,5 +4,8 @@
   ],
   "kubernetes": {
     "fileMatch": ["\\.yaml$"]
+  },
+  "docker-compose": {
+    "enabled": true
   }
 }
