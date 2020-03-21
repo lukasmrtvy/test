@@ -2,6 +2,6 @@
 version: "2"
 services:
   nginx:
-    image: nginx:latest@sha256:1111fb3946790d711a68c58be93628e43cbca72439079e16d154b5db216b58da
+    image: nginx:latest@sha256:2500df07b831096e9207522576c20132b3f645865185d519f3f911602b585c4b
     container_name: nginx
     restart: unless-stopped
