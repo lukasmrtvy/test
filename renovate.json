@@ -1,4 +1,7 @@
 {
+  "experimental-manager": {
+    "enabled": true
+  },
   "extends": [
     "config:base"
   ],
