@@ -3,6 +3,6 @@ name: default
 
 steps:
 - name: test
-  image: alpine:3.10
+  image: alpine:3.9
   commands:
   - echo foobar
