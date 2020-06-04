@@ -1,0 +1,9 @@
+repositories:
+- name: stable
+  url: https://kubernetes-charts.storage.googleapis.com
+  
+ releases:
+- name: prometheus
+  namespace: prometheus
+  chart: stable/prometheus
+  version: 11.2.3
