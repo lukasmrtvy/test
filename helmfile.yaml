@@ -6,4 +6,4 @@ releases:
 - name: prometheus
   namespace: prometheus
   chart: stable/prometheus
-  version: 11.2.3
+  version: 11.9.0
