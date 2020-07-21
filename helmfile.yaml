@@ -2,13 +2,22 @@ environments:
   default:
     values:
       - version: 11.2.3
+      - cversion: v0.15.1
 
 repositories:
 - name: stable
   url: https://kubernetes-charts.storage.googleapis.com
-  
+- name: jetstack
+  url: https://charts.jetstack.io 
+ 
 releases:
 - name: prometheus
   namespace: prometheus
   chart: stable/prometheus
   version: {{ .Values.version }}
+  
+- name: cert-manager
+  namespace: cert-manager
+  createNamespace: true
+  chart: jetstack/cert-manager
+  version: {{ .Values.cversion }}
