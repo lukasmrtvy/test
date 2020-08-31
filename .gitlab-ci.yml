@@ -1,4 +1,4 @@
 test:
-  image: alpine:3.10
+  image: alpine:3.12
   script:
   - echo foobar
