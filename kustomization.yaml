@@ -1,0 +1,4 @@
+kind: Kustomization
+
+commonLabels: 
+  foo: bar
