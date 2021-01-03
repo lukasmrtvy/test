@@ -5,5 +5,10 @@
   "prHourlyLimit":0,
   "docker-compose": {
     "enabled": true
+  },
+  "terraform": {
+    "digest": {
+      "enabled": false
+    }
   }
 }
