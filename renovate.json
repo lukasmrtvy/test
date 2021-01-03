@@ -1,10 +1,8 @@
 {
-  "extends": [
-    "config:base"
-  ],
-  "kubernetes": {
-    "fileMatch": ["\\.yaml$"]
-  },
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base", ":dependencyDashboard"],
+  "prConcurrentLimit": 50,
+  "prHourlyLimit":0,
   "docker-compose": {
     "enabled": true
   }
