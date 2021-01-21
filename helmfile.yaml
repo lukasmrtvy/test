@@ -9,6 +9,8 @@ repositories:
   url: https://kubernetes-charts.storage.googleapis.com
 - name: jetstack
   url: https://charts.jetstack.io 
+- name: k8s-at-home
+  url: https://k8s-at-home.com/charts/ 
  
 releases:
 - name: prometheus
@@ -21,3 +23,12 @@ releases:
   createNamespace: true
   chart: jetstack/cert-manager
   version: {{ .Values.cversion }}
+
+- name: jellyfin
+  namespace: jellyfin
+  createNamespace: true
+  chart: k8s-at-home/jellyfin
+  values:
+    - image:
+        repository: linuxserver/jellyfin
+        tag: version-10.6.4-1
