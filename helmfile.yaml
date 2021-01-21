@@ -31,4 +31,4 @@ releases:
   values:
     - image:
         repository: linuxserver/jellyfin
-        tag: version-10.6.4-1
+        tag: version-10.6.3
