@@ -15,5 +15,9 @@
     "digest": {
       "enabled": true
     }
+  },
+  "helm-values": {
+    "fileMatch": ["(^|/)values.yaml$"],
+    "enabled": true
   }
 }
