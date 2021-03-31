@@ -6,6 +6,6 @@ services:
     container_name: nginx
     restart: unless-stopped
   nginx:
-    image: alpine:3.10
+    image: alpine:3.13
     container_name: alpine
     restart: unless-stopped
