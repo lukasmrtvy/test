@@ -1,0 +1,9 @@
+---
+- hosts: webservers
+  serial: 5
+
+  tasks:
+  - name: Create a data container
+    community.docker.docker_container:
+        name: test
+        image: alpine:3.11
