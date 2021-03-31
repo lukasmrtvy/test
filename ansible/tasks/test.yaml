@@ -11,3 +11,8 @@
     community.docker.docker_container:
       name: test2
       image: busybox:1.32.0
+
+  - name: Create a data container - 3
+    community.docker.docker_container:
+      name: test3
+      image: alpine:3.10
