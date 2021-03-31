@@ -3,6 +3,9 @@
   "extends": ["config:base", ":dependencyDashboard"],
   "prConcurrentLimit": 50,
   "prHourlyLimit":0,
+  "ansible": {
+    "enabled": true
+  },
   "docker-compose": {
     "enabled": true
   },
