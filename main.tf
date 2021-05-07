@@ -12,7 +12,7 @@ resource "docker_image" "nginx" {
 }
 
 resource "docker_image" "tools" {
-  name = "lukasmrtvy/tools:latest@sha256:732d70b72f93b06fb202bd5c464d7b0e2c5c3fc6559456622af1535d64e79ea7"
+  name = "lukasmrtvy/tools:latest@sha256:002de234d8431b9ede0a9e69e2f955b77fe44049221bf8ec8cd0ee11083f5413"
 }
 
 module "consul" {
