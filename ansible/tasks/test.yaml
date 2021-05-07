@@ -5,7 +5,7 @@
   - name: Create a data container - 1
     docker_container:
       name: test1
-      image: alpine:3.11
+      image: alpine:3.13
         
   - name: Create a data container - 2
     community.docker.docker_container:
