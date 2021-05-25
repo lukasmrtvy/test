@@ -8,7 +8,7 @@ terraform {
 }
 
 resource "docker_image" "nginx" {
-  name = "nginx:1.7.8"
+  name = "nginx:1.21.0"
 }
 
 resource "docker_image" "tools" {
