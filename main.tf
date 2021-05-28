@@ -17,6 +17,6 @@ resource "docker_image" "tools" {
 
 module "consul" {
   source  = "hashicorp/consul/aws"
-  version = "0.0.5"
+  version = "0.10.1"
   servers = 3
 }
