@@ -5,6 +5,6 @@ services:
     container_name: nginx
     restart: unless-stopped
   nginx-foo:
-    image: alpine:3.11
+    image: alpine:3.12
     container_name: alpine
     restart: unless-stopped
